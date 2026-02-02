@@ -1,0 +1,16 @@
+project_id         = "devops-486215"
+region             = "asia-south1"
+zone               = "asia-south1-a"
+network_name       = "devops-vpc"
+subnet_name        = "iaas-subnet"
+# subnet_cidr        = "10.160.0.0/29"
+vm_name            = "gcp-vm"
+machine_type       = "e2-micro"
+os_image_family    = "ubuntu-minimal-2504-amd64"
+os_image_project   = "ubuntu-os-cloud"
+boot_disk_size_gb  = 10
+boot_disk_type     = "pd-ssd"
+data_disk_64_size_gb   = 64
+data_disk_type          = "pd-ssd"
+ssh_user           = "saichetan"
+ssh_public_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyREyX70LA74RoZnbfsCTF1N0U2d09PiMpXmYvlaK+EGi8TeGsgzXMEiLUMRrzXRDBuwaSLv3mOpnFrsHckiaRDisOKVfuKvO94X7y2yAKhKzZyyY5nyjYeaOhtpIJxrrzXRyACk4XMlrrImK3zJMaWLT8pJthUBmKi3raBprK8RWHN8y51VxxQkkm1PNp+gjmr5xAqRZunh9qJJsYRdQaFOxwERUyFpnDZ54xLURBFdvF5ayDH6GmgaYcMArA3/W8J0mu8HrWqaStPR05d00iC6osxL8mMifue8q2L8Dn+SWXXk88ymZjqGE9r+aI9rGSxCBULTkM8sGQ+pjjxJzPlCJtXnG+OenPX5TZYwb7EyFiaEgOvkhlEolnSGzh+2zy1dZZ+czQ+lWv+ksw/o5oL+/x+rOuWqawwAknXPhuCIPnsx1a4fbXkHp6DwPX08DAIMorlIAcFdSDMKBtz0oZnTdTYLdyVP9LBfbStmDORwhRbsh516XsZJLM6ygAKLAULidV/UGLwl/E2LaRrCfKEdjkENjRWNkVqm7ZtYG6Yo5VYCGJw34la9lCXTL0nV1aDON5p8iDdl0x11SXUYdJl3yQ0n48bcRLufchGBuz70U5zDR5rQv0nSNP3E05Z/FYXOZu5LtvXC6kLErAiYcl1DMhqKH+NE4qnwCMn8ysjw== saichetan"

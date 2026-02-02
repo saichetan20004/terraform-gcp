@@ -1,0 +1,9 @@
+project_id        = "devops-486215"
+region            = "asia-south1"
+zones             = ["asia-south1-a", "asia-south1-b", "asia-south1-c"]
+cluster_name      = "my-gke-cluster"
+user_pool_name    = "user-pool"
+machine_type      = "e2-small"
+initial_node_count = 2
+min_node_count    = 2
+max_node_count    = 3

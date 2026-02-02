@@ -1,0 +1,7 @@
+project_id    = "devops-486215"
+region        = "asia-south1"
+zone          = "asia-south1-a"
+filestore_name = "demofilestore"
+share_name    = "test"
+network       = "devops-vpc"
+ip_range      = "10.198.6.0/29"
