@@ -4,3 +4,7 @@
 .terraform.lock.hcl
 .DS_Store
 .terraform.tfstate.backup
+.vscode/
+.idea/
+*.log
+crash.log
